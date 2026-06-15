@@ -415,12 +415,6 @@ parameters:
 			path: CRM/Twingle/BAO/TwingleShop.php
 
 		-
-			message: '#^Parameter \#4 \$endpointId of method Civi\\Twingle\\Shop\\ApiCall\:\:get\(\) expects string\|null, int\|null given\.$#'
-			identifier: argument.type
-			count: 1
-			path: CRM/Twingle/BAO/TwingleShop.php
-
-		-
 			message: '#^Property CRM_Twingle_BAO_TwingleShop\:\:\$products \(array\) on left side of \?\? is not nullable\.$#'
 			identifier: nullCoalesce.property
 			count: 1
